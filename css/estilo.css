@@ -1,0 +1,91 @@
+/*pagina principal*/
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-size: 1em;
+    color: black;
+    background: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    text-align: center;
+    padding: 15px;
+}
+
+#logo1 {
+    border: 2px solid blue;
+    float: left;
+}
+
+#menu-menu {
+    text-align: center;
+    font-family: serif;
+    padding: 2.5em;
+    color: blue;
+    background: black;
+}
+
+#menu-title {
+    font-family: serif;
+    color: blue;
+    background: black;
+}
+
+#menu-rodape {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    background: #CCC;
+    text-align: center;
+}
+
+#menu-logo {
+    text-align: center;
+    font-size: 2.5em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#menu-postagem {
+    text-align: justify;
+    width: 920px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.branco {
+    color: white;
+}
+
+
+/*
+ FORMATANDO OS LINKS
+*/
+
+a {
+    text-decoration: none;
+    color: white;
+    margin: 15px;
+}
+
+a:link,
+a:visited {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a:hover {
+    padding: 15px;
+    margin: 20px;
+    background-color: white;
+    color: blue;
+}
+
+.menu-img {
+    text-align: center;
+    padding: 20px;
+}
