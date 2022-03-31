@@ -15,7 +15,8 @@ body {
 h1 {
     text-align: center;
     padding: 15px;
-    background: #CCC;
+    background: #87CEFA;
+    font-family: serif;
 }
 
 h2 {
@@ -36,7 +37,7 @@ h3 {
 
 #menu-menu {
     text-align: center;
-    font-family: serif;
+    font-family: arial;
     padding: 2.5em;
     color: blue;
     background: black;
@@ -72,7 +73,7 @@ h3 {
 }
 
 .branco {
-    color: white;
+    color: #00FFFF;
 }
 
 
@@ -89,15 +90,15 @@ a {
 
 a:link,
 a:visited {
-    color: white;
+    color: #00FFFF;
     font-family: 'Times New Roman', Times, serif;
 }
 
 a:hover {
     padding: 15px;
     margin: 20px;
-    background-color: white;
-    color: blue;
+    background-color: #00FFFF;
+    color:black;
 }
 
 .menu-img {
